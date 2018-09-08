@@ -2,7 +2,7 @@ describe("hello world", function () {
   var helloCtrl;
   beforeEach(module('HelloWorldApp'))
   beforeEach(inject(function ($controller) {
-    helloCtrl = $controller("HelloWorldController jenkins");
+    helloCtrl = $controller("HelloWorldController jenkins----");
   }))
 
   describe("helloCtrl", function () {
